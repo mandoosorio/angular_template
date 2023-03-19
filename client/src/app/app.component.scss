@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+}
+.parent-container {
+    display: flex;
+}
+nav{
+    background-color: lavender;
+    width: 100vw;
+    height: 70px;
+}
+
+aside{
+    background-color: cornflowerblue;
+    height: 100vh;
+    width: 70px;
+    text-align: center;
+}
+article{
+    background-color: bisque;
+    width: 100vw;
+}
+.graph-card-section {
+    display: flex;
+    justify-content: space-around;
+}
+.graph-card {
+    background-color: plum;
+    width: 20%;
+    height: 200px;
+}
+
+p {
+    margin-top: 50px;
+}
+
+a {
+    padding: 100px;
+}
+
+.body-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.lower-body-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.left-article-section {
+    background-color: antiquewhite;
+    width: 45%;
+    height: 500px;
+}
+
+.right-article-section {
+    background-color: antiquewhite;
+    width: 45%;
+    height: 500px;
+}
+
+section {
+    margin-top: 50px;
+}
+
+.left-lower-section {
+    background-color: maroon;
+    width: 30%;
+}
+.center-lower-section {
+    background-color: maroon;
+    width: 30%;
+}
+.right-lower-section {
+    background-color: maroon;
+    width: 30%;
+    height: 300px;
+}
